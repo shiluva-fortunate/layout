@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    
 </head>
 
 <body>
@@ -43,17 +47,17 @@
         <div class="col-10 table-content">
             <div class="stats-cards-holder">
                 <div class="stats-card center">
-                    <p class="stats-font">23454</p>
+                    <p class="stats-font num">23454</p>
                     <p class="light-text">Markers</p>  
                 </div>
         
                 <div class="stats-card">
-                    <p class="stats-font">454</p>
+                    <p class="stats-font num">454</p>
                     <p class="light-text">Admin Accounts</p>
                 </div>
         
                 <div class="stats-card">   
-                    <p class="stats-font">454</p>
+                    <p class="stats-font num">454</p>
                     <p class="light-text">KM Travelled</p>
                 </div>
             </div>
@@ -75,6 +79,9 @@
         <p class="footer-text">Developed by <a class="white" href="https://www.lebonemedia.co.za">Lebone Media</a> </p>
     </div>
 
+    <script type="text/javascript">
+        $('.num').counterUp({delay:10, time: 2000})
+    </script>
 
 </body>
 
