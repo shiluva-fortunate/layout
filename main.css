@@ -9,6 +9,10 @@ body{
     font-weight: 600;
 }
 
+.white{
+    color: #fff !important;
+}
+
 .grey-text{
     font-size: 16px;
     color: #686868;
@@ -225,5 +229,20 @@ nav{
     justify-content: flex-end;
     min-width: 30%;
     margin-top: 2%;
+}
+
+
+.graph-container{
+    height: 450px;
+    background-size: contain;
+    margin-top: 8%;
+}
+
+.graph{
+    width: inherit;
+    height: inherit;
+    background-image: url('./graph.svg');
+    background-repeat: no-repeat;
+    margin-left: 23%;
 }
 
