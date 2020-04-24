@@ -43,7 +43,7 @@ body{
 
 .submit{
     background-color: #0054A6;
-    width: 120px;
+    width: 130px;
     padding: 9px 15px;
     border: none;
     color: #fefefe;
@@ -51,7 +51,7 @@ body{
     margin-top: 8%;
     font-weight: 300;
     cursor: pointer;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 .margin-top{
@@ -188,10 +188,12 @@ a{
 }
 
 .row{
-    top: 0;
     left: 0;
     height: 820px;
     overflow-x: hidden !important;
+    position: relative !important;
+    margin-top: 6%;
+    margin-left: 0 !important;
 }
 
 nav{

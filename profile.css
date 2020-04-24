@@ -1,0 +1,65 @@
+body{
+    background-color: #fff !important;
+    font-family: 'Raleway', Helvetica;
+}
+
+.edit-details-container{
+    margin: 10% auto;
+    width: 70%;
+    /* background-color: pink; */
+}
+
+.section-title{
+    color: #0054A6; 
+    font-family: 'Raleway', Helvetica;
+    font-weight: 600;
+    font-size: 1.7rem;      
+}
+
+.input-tag, .edit-input-tag{
+    width: 60%;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5%;
+    color: #0054A6;
+    font-size: 0.8rem; 
+    font-weight: 100;
+    border: 2px solid #0054A6;
+}
+
+.edit-input-tag{
+    margin-top: 3% !important;
+    font-size: 1.1rem !important; 
+    border-bottom: 2px solid #0054A6 !important;
+    border: none;
+    border-radius: 0px;
+    padding-bottom: 5px !important;
+}
+
+.shorter{
+    width: 20% !important;
+}
+
+.short{
+    width: 30% !important;
+}
+
+.long{
+    width: 50% !important;
+}
+
+.left{
+    margin-left: 7%;
+}
+    
+.title-icon{
+    margin-top: -15px;
+    margin-left: 20px;
+}
+
+/* this should be in the main css file, I have it in here because I know you probably won't go to see if there has been any edits there */
+.sticky{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
