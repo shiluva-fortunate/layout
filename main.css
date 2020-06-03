@@ -189,7 +189,7 @@ a{
 
 .row{
     left: 0;
-    height: 820px;
+    height: 100vh;
     overflow-x: hidden !important;
     position: relative !important;
     margin-top: 6%;
